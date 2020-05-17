@@ -1,26 +1,23 @@
-# Obras Bibliográficas
+# Como fiz o teste?
+Realizei o teste usando o ruby '2.7.0', Rails API '6.0.3', SQLite3 e o Postman.
 
-(LEIA ATÉ O FINAL)
-
-Quando se lista o nome de autores de livros, artigos e outras publicações é comum que se apresente o nome do autor ou dos autores da seguinte forma: sobrenome do autor em letras maiúsculas, seguido de uma vírgula e da primeira parte do nome apenas com as iniciais maiúsculas.
-
-Por exemplo:
-* SILVA, Joao
-* COELHO, Paulo
-* ARAUJO, Celso de
-
-Seu desafio é fazer um programa que leia um número inteiro correspondendo ao número de nomes que será fornecido, e, a seguir, leia estes nomes (que podem estar em qualquer tipo de letra) e imprima a versão formatada no estilo exemplificado acima.
-
-As seguintes regras devem ser seguidas nesta formatação:
-* o sobrenome será igual a última parte do nome e deve ser apresentado em letras maiúsculas;
-* se houver apenas uma parte no nome, ela deve ser apresentada em letras maiúsculas (sem vírgula): se a entrada for “ Guimaraes” , a saída deve ser “ GUIMARAES”;
-* se a última parte do nome for igual a "FILHO", "FILHA", "NETO", "NETA", "SOBRINHO", "SOBRINHA" ou "JUNIOR" e houver duas ou mais partes antes, a penúltima parte fará parte do sobrenome. Assim: se a entrada for "Joao Silva Neto", a saída deve ser "SILVA NETO, Joao" ; se a entrada for "Joao Neto" , a saída deve ser "NETO, Joao";
-* as partes do nome que não fazem parte do sobrenome devem ser impressas com a inicial maiúscula e com as demais letras minúsculas;
-* "da", "de", "do", "das", "dos" não fazem parte do sobrenome e não iniciam por letra maiúscula.
-
-## Tecnologias a serem utilizadas
-
-## Procedimento para entrega
-Realize um fork deste repositório, desenvolva sua solução e encaminhe o seu repositório com o seu código. Arquivos compactados não serão aceitos.
-
-Altere o arquivo README para descrever quais componentes foram utilizados e como sua aplicação deverá ser executada.
+# Rodar com Rails API e Postman
+- Fazer o clone do projeto com Git Clone
+- Para rodar o projeto é necessário fazer os seguintes passos:
+- bundler install -> rails db:create -> rails db:migrate -> rails s
+- Abrir o sotware POSTMAN
+- Preencher o endereço com http://localhost:3000/autors
+- Colocar no modo POST
+- Preencher o Header com o Key: Content-Type, Value: application/json
+- Preencher o body com um Hash da seguinte maneira(Nomes exemplo):
+- {
+    "nome_contador": 3,
+    "nome": [
+        "guilherme rocha",
+        "Maria eduarda Rocha Ramos",
+        "Carlos Augusto Rocha silva"
+    ]
+  }
+ - nome_contador: Seria o número de nomes que vão ser inseridos
+ - nome: Serão os nomes que serão inseridos
+ - obs: é necessario que o número de nomes seja igual a quantidade de nomes a serem inseridos
