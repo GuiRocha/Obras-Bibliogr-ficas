@@ -1,0 +1,1936 @@
+Started GET "/autors" for 127.0.0.1 at 2020-05-16 14:41:20 -0300
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.3) lib/active_record/migration.rb:586:in `check_pending!'
+activerecord (6.0.3) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/autors" for 127.0.0.1 at 2020-05-16 14:41:27 -0300
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.3) lib/active_record/migration.rb:586:in `check_pending!'
+activerecord (6.0.3) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (170.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (126.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateAutors (20200516152213)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "autors" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "nome" varchar, "nome_contador" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200516152213"]]
+  [1m[35m (176.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-05-16 17:41:49.088948"], ["updated_at", "2020-05-16 17:41:49.088948"]]
+  [1m[35m (107.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/autors" for 127.0.0.1 at 2020-05-16 14:42:01 -0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AutorsController#index as */*
+  Parameters: {"texto"=>"ToDo Sample", "finalizado"=>false, "autor"=>{}}
+  [1m[36mAutor Load (0.3ms)[0m  [1m[34mSELECT "autors".* FROM "autors"[0m
+  ↳ app/controllers/autors_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.8ms | Allocations: 940)
+
+
+Started GET "/autors" for 127.0.0.1 at 2020-05-16 16:04:56 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/home/guilherme/Documentos/obras/app/models/autor.rb:37: else without rescue is useless
+    else raise 'nome ...'
+    ^~~~
+/home/guilherme/Documentos/obras/app/models/autor.rb:45: syntax error, unexpected `end', expecting end-of-input):
+  
+app/models/autor.rb:37: else without rescue is useless
+app/models/autor.rb:45: syntax error, unexpected `end', expecting end-of-input
+app/models/autor.rb:37: else without rescue is useless
+app/models/autor.rb:45: syntax error, unexpected `end', expecting end-of-input
+Started GET "/autors" for 127.0.0.1 at 2020-05-16 16:05:39 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/home/guilherme/Documentos/obras/app/models/autor.rb:37: else without rescue is useless
+    else raise 'nome ...'
+    ^~~~
+):
+  
+app/models/autor.rb:37: else without rescue is useless
+app/models/autor.rb:37: else without rescue is useless
+Started GET "/autors" for 127.0.0.1 at 2020-05-16 16:05:52 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutorsController#index as */*
+  Parameters: {"texto"=>"ToDo Sample", "finalizado"=>false, "autor"=>{"texto"=>"ToDo Sample", "finalizado"=>false}}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1830)
+
+
+  
+NameError (uninitialized constant AutorsController::Autor):
+  
+app/controllers/autors_controller.rb:6:in `index'
+Started GET "/autors" for 127.0.0.1 at 2020-05-16 16:07:06 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutorsController#index as */*
+  Parameters: {"texto"=>"ToDo Sample", "finalizado"=>false, "autor"=>{}}
+  [1m[36mAutor Load (0.2ms)[0m  [1m[34mSELECT "autors".* FROM "autors"[0m
+  ↳ app/controllers/autors_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.8ms | Allocations: 890)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:09:33 -0300
+Processing by AutorsController#create as */*
+Completed 400 Bad Request in 6ms (ActiveRecord: 0.3ms | Allocations: 2784)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: autor):
+  
+app/controllers/autors_controller.rb:50:in `autor_params'
+app/controllers/autors_controller.rb:19:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:11:01 -0300
+Processing by AutorsController#create as */*
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 125)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: autor):
+  
+app/controllers/autors_controller.rb:50:in `autor_params'
+app/controllers/autors_controller.rb:19:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:12:19 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AutorsController#create as */*
+Completed 400 Bad Request in 6ms (ActiveRecord: 0.6ms | Allocations: 3672)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: autor):
+  
+app/controllers/autors_controller.rb:50:in `autor_params'
+app/controllers/autors_controller.rb:19:in `create'
+Started GET "/autors" for 127.0.0.1 at 2020-05-16 16:16:12 -0300
+Error occurred while parsing request parameters.
+Contents:
+
+{ names_total: 1 names: ['guilherme rocha'}
+  
+ActionDispatch::Http::Parameters::ParseError (783: unexpected token at '{ names_total: 1 names: ['guilherme rocha'}'):
+  
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:114:in `rescue in parse_formatted_parameters'
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:110:in `parse_formatted_parameters'
+actionpack (6.0.3) lib/action_dispatch/http/request.rb:389:in `block in POST'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch_header'
+actionpack (6.0.3) lib/action_dispatch/http/request.rb:388:in `POST'
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (6.0.3) lib/action_controller/metal/params_wrapper.rb:278:in `_wrapper_enabled?'
+actionpack (6.0.3) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (6.0.3) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+activerecord (6.0.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Error occurred while parsing request parameters.
+Contents:
+
+{ names_total: 1 names: ['guilherme rocha'}
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:16:25 -0300
+Error occurred while parsing request parameters.
+Contents:
+
+{ names_total: 1 names: ['guilherme rocha'}
+  
+ActionDispatch::Http::Parameters::ParseError (783: unexpected token at '{ names_total: 1 names: ['guilherme rocha'}'):
+  
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:114:in `rescue in parse_formatted_parameters'
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:110:in `parse_formatted_parameters'
+actionpack (6.0.3) lib/action_dispatch/http/request.rb:389:in `block in POST'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch_header'
+actionpack (6.0.3) lib/action_dispatch/http/request.rb:388:in `POST'
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (6.0.3) lib/action_controller/metal/params_wrapper.rb:278:in `_wrapper_enabled?'
+actionpack (6.0.3) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (6.0.3) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+activerecord (6.0.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Error occurred while parsing request parameters.
+Contents:
+
+{ names_total: 1 names: ['guilherme rocha'}
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:16:53 -0300
+Error occurred while parsing request parameters.
+Contents:
+
+{ nome_contador: 1 nome: ['guilherme rocha'}
+  
+ActionDispatch::Http::Parameters::ParseError (783: unexpected token at '{ nome_contador: 1 nome: ['guilherme rocha'}'):
+  
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:114:in `rescue in parse_formatted_parameters'
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:110:in `parse_formatted_parameters'
+actionpack (6.0.3) lib/action_dispatch/http/request.rb:389:in `block in POST'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch_header'
+actionpack (6.0.3) lib/action_dispatch/http/request.rb:388:in `POST'
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (6.0.3) lib/action_controller/metal/params_wrapper.rb:278:in `_wrapper_enabled?'
+actionpack (6.0.3) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (6.0.3) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+activerecord (6.0.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Error occurred while parsing request parameters.
+Contents:
+
+{ nome_contador: 1 nome: ['guilherme rocha'}
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:17:02 -0300
+Error occurred while parsing request parameters.
+Contents:
+
+{ nome_contador: 1 nome: ['guilherme rocha']}
+  
+ActionDispatch::Http::Parameters::ParseError (783: unexpected token at '{ nome_contador: 1 nome: ['guilherme rocha']}'):
+  
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:114:in `rescue in parse_formatted_parameters'
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:110:in `parse_formatted_parameters'
+actionpack (6.0.3) lib/action_dispatch/http/request.rb:389:in `block in POST'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch_header'
+actionpack (6.0.3) lib/action_dispatch/http/request.rb:388:in `POST'
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (6.0.3) lib/action_controller/metal/params_wrapper.rb:278:in `_wrapper_enabled?'
+actionpack (6.0.3) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (6.0.3) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+activerecord (6.0.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Error occurred while parsing request parameters.
+Contents:
+
+{ nome_contador: 1 nome: ['guilherme rocha']}
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:19:01 -0300
+Error occurred while parsing request parameters.
+Contents:
+
+{ nome_contador: 1 nome: ['guilherme rocha']}
+  
+ActionDispatch::Http::Parameters::ParseError (783: unexpected token at '{ nome_contador: 1 nome: ['guilherme rocha']}'):
+  
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:114:in `rescue in parse_formatted_parameters'
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:110:in `parse_formatted_parameters'
+actionpack (6.0.3) lib/action_dispatch/http/request.rb:389:in `block in POST'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch_header'
+actionpack (6.0.3) lib/action_dispatch/http/request.rb:388:in `POST'
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (6.0.3) lib/action_controller/metal/params_wrapper.rb:278:in `_wrapper_enabled?'
+actionpack (6.0.3) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (6.0.3) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+activerecord (6.0.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Error occurred while parsing request parameters.
+Contents:
+
+{ nome_contador: 1 nome: ['guilherme rocha']}
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:19:32 -0300
+Error occurred while parsing request parameters.
+Contents:
+
+{ nome_contador: 1 nome : ['guilherme rocha']}
+  
+ActionDispatch::Http::Parameters::ParseError (783: unexpected token at '{ nome_contador: 1 nome : ['guilherme rocha']}'):
+  
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:114:in `rescue in parse_formatted_parameters'
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:110:in `parse_formatted_parameters'
+actionpack (6.0.3) lib/action_dispatch/http/request.rb:389:in `block in POST'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch_header'
+actionpack (6.0.3) lib/action_dispatch/http/request.rb:388:in `POST'
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (6.0.3) lib/action_controller/metal/params_wrapper.rb:278:in `_wrapper_enabled?'
+actionpack (6.0.3) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (6.0.3) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+activerecord (6.0.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Error occurred while parsing request parameters.
+Contents:
+
+{ nome_contador: 1 nome : ['guilherme rocha']}
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:20:28 -0300
+Error occurred while parsing request parameters.
+Contents:
+
+{ "nome_contador": 1 "nome" : ['guilherme rocha']}
+  
+ActionDispatch::Http::Parameters::ParseError (783: unexpected token at '{ "nome_contador": 1 "nome" : ['guilherme rocha']}'):
+  
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:114:in `rescue in parse_formatted_parameters'
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:110:in `parse_formatted_parameters'
+actionpack (6.0.3) lib/action_dispatch/http/request.rb:389:in `block in POST'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch_header'
+actionpack (6.0.3) lib/action_dispatch/http/request.rb:388:in `POST'
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (6.0.3) lib/action_controller/metal/params_wrapper.rb:278:in `_wrapper_enabled?'
+actionpack (6.0.3) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (6.0.3) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+activerecord (6.0.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Error occurred while parsing request parameters.
+Contents:
+
+{ "nome_contador": 1 "nome" : ['guilherme rocha']}
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:20:55 -0300
+Error occurred while parsing request parameters.
+Contents:
+
+{ "nome_contador": 1 "nome" : ["guilherme rocha"]}
+  
+ActionDispatch::Http::Parameters::ParseError (783: unexpected token at '{ "nome_contador": 1 "nome" : ["guilherme rocha"]}'):
+  
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:114:in `rescue in parse_formatted_parameters'
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:110:in `parse_formatted_parameters'
+actionpack (6.0.3) lib/action_dispatch/http/request.rb:389:in `block in POST'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch_header'
+actionpack (6.0.3) lib/action_dispatch/http/request.rb:388:in `POST'
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (6.0.3) lib/action_controller/metal/params_wrapper.rb:278:in `_wrapper_enabled?'
+actionpack (6.0.3) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (6.0.3) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+activerecord (6.0.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Error occurred while parsing request parameters.
+Contents:
+
+{ "nome_contador": 1 "nome" : ["guilherme rocha"]}
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:21:18 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme rocha"], "autor"=>{"nome"=>["guilherme rocha"], "nome_contador"=>1}}
+[31mUnpermitted parameter: :nome[0m
+[31mUnpermitted parameter: :nome[0m
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 754)
+
+
+  
+NoMethodError (undefined method `formata_nomes' for nil:NilClass):
+  
+app/controllers/autors_controller.rb:19:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:24:55 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme rocha"], "autor"=>{"nome"=>["guilherme rocha"], "nome_contador"=>1}}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 1.4ms | Allocations: 3211)
+
+
+  
+NoMethodError (undefined method `formata_nomes' for nil:NilClass):
+  
+app/controllers/autors_controller.rb:19:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:25:39 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme rocha"], "autor"=>{"nome"=>["guilherme rocha"], "nome_contador"=>1}}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 753)
+
+
+  
+NoMethodError (undefined method `formata_nomes' for nil:NilClass):
+  
+app/controllers/autors_controller.rb:19:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:27:58 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme rocha"], "autor"=>{"nome"=>["guilherme rocha"], "nome_contador"=>1}}
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.5ms | Allocations: 3473)
+
+
+  
+NoMethodError (undefined method `formata_nomes' for nil:NilClass):
+  
+app/controllers/autors_controller.rb:19:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:28:24 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme rocha"], "autor"=>{"nome"=>["guilherme rocha"], "nome_contador"=>1}}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 1.0ms | Allocations: 3178)
+
+
+  
+NoMethodError (undefined method `formata_nomes' for nil:NilClass):
+  
+app/controllers/autors_controller.rb:18:in `create'
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (19.9ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:32:07 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme rocha"], "autor"=>{"nome"=>["guilherme rocha"], "nome_contador"=>1}}
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.4ms | Allocations: 3444)
+
+
+  
+NoMethodError (undefined method `formata_nomes' for nil:NilClass):
+  
+app/controllers/autors_controller.rb:18:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:32:39 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme rocha", "elizandra guedes"], "autor"=>{"nome"=>["guilherme rocha", "elizandra guedes"], "nome_contador"=>1}}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 743)
+
+
+  
+NoMethodError (undefined method `formata_nomes' for nil:NilClass):
+  
+app/controllers/autors_controller.rb:18:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:35:36 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme rocha"], "autor"=>{"nome"=>["guilherme rocha"], "nome_contador"=>1}}
+  [1m[36mAutor Load (0.2ms)[0m  [1m[34mSELECT "autors".* FROM "autors" LIMIT ?[0m  [["LIMIT", 11]]
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 1.2ms | Allocations: 5390)
+
+
+  [1m[36mCACHE Autor Load (0.0ms)[0m  [1m[34mSELECT "autors".* FROM "autors" LIMIT ?[0m  [["LIMIT", 11]]
+  
+NoMethodError (undefined method `formata_nomes' for #<ActiveRecord::Relation []>):
+  
+app/controllers/autors_controller.rb:19:in `create'
+  [1m[36mCACHE Autor Load (0.0ms)[0m  [1m[34mSELECT "autors".* FROM "autors" LIMIT ?[0m  [["LIMIT", 11]]
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:35:49 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme rocha"], "autor"=>{"nome"=>["guilherme rocha"], "nome_contador"=>1}}
+  [1m[36mAutor Load (0.2ms)[0m  [1m[34mSELECT "autors".* FROM "autors" LIMIT ?[0m  [["LIMIT", 11]]
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.5ms | Allocations: 2932)
+
+
+  [1m[36mCACHE Autor Load (0.1ms)[0m  [1m[34mSELECT "autors".* FROM "autors" LIMIT ?[0m  [["LIMIT", 11]]
+  
+NoMethodError (undefined method `formata_nomes' for #<ActiveRecord::Relation []>):
+  
+app/controllers/autors_controller.rb:19:in `create'
+  [1m[36mCACHE Autor Load (0.0ms)[0m  [1m[34mSELECT "autors".* FROM "autors" LIMIT ?[0m  [["LIMIT", 11]]
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:35:54 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme rocha"], "autor"=>{"nome"=>["guilherme rocha"], "nome_contador"=>1}}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 1.1ms | Allocations: 3172)
+
+
+  
+NoMethodError (undefined method `formata_nomes' for nil:NilClass):
+  
+app/controllers/autors_controller.rb:19:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:37:32 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme rocha"], "autor"=>{"nome"=>["guilherme rocha"], "nome_contador"=>1}}
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.7ms | Allocations: 3445)
+
+
+  
+NoMethodError (undefined method `|' for #<Enumerator: ["guilherme rocha"]:each>):
+  
+app/models/autor.rb:9:in `formata_nomes'
+app/controllers/autors_controller.rb:19:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:38:21 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/home/guilherme/Documentos/obras/app/models/autor.rb:45: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/models/autor.rb:45: syntax error, unexpected end-of-input, expecting `end'
+app/models/autor.rb:45: syntax error, unexpected end-of-input, expecting `end'
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:38:48 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/home/guilherme/Documentos/obras/app/models/autor.rb:44: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/models/autor.rb:44: syntax error, unexpected end-of-input, expecting `end'
+app/models/autor.rb:44: syntax error, unexpected end-of-input, expecting `end'
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:39:07 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme rocha"], "autor"=>{"nome_contador"=>1, "nome"=>["guilherme rocha"]}}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1768)
+
+
+  
+NameError (uninitialized constant AutorsController::Autor):
+  
+app/controllers/autors_controller.rb:17:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:40:11 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme rocha"], "autor"=>{"nome"=>["guilherme rocha"], "nome_contador"=>1}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (82.1ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"ROCHA, Guilherme\"]"], ["created_at", "2020-05-16 19:40:11.335579"], ["updated_at", "2020-05-16 19:40:11.335579"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (295.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 401ms (Views: 1.4ms | ActiveRecord: 378.6ms | Allocations: 6400)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:41:19 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme rocha ramos"], "autor"=>{"nome"=>["guilherme rocha ramos"], "nome_contador"=>1}}
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 2911)
+
+
+  
+NoMethodError (undefined method `verify_word' for #<Autor:0x00007f0be8807f00>):
+  
+app/models/autor.rb:26:in `block (2 levels) in formata_nomes'
+app/models/autor.rb:25:in `block in formata_nomes'
+app/models/autor.rb:9:in `each'
+app/models/autor.rb:9:in `formata_nomes'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:41:58 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme rocha ramos"], "autor"=>{"nome"=>["guilherme rocha ramos"], "nome_contador"=>1}}
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 2901)
+
+
+  
+NoMethodError (undefined method `verify_word' for #<Autor:0x00007f0be88cedd0>):
+  
+app/models/autor.rb:26:in `block (2 levels) in formata_nomes'
+app/models/autor.rb:25:in `block in formata_nomes'
+app/models/autor.rb:9:in `each'
+app/models/autor.rb:9:in `formata_nomes'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:42:49 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme rocha ramos"], "autor"=>{"nome"=>["guilherme rocha ramos"], "nome_contador"=>1}}
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 1.3ms | Allocations: 5618)
+
+
+  
+NoMethodError (undefined method `verificar_palavra' for #<Autor:0x0000558168e9a798>):
+  
+app/models/autor.rb:26:in `block (2 levels) in formata_nomes'
+app/models/autor.rb:25:in `block in formata_nomes'
+app/models/autor.rb:9:in `each'
+app/models/autor.rb:9:in `formata_nomes'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:43:00 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>2, "nome"=>["guilherme rocha ramos"], "autor"=>{"nome"=>["guilherme rocha ramos"], "nome_contador"=>2}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (0.8ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "verificar_palavra"], ["created_at", "2020-05-16 19:43:00.499621"], ["updated_at", "2020-05-16 19:43:00.499621"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (193.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 220ms (Views: 2.3ms | ActiveRecord: 194.3ms | Allocations: 3799)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:44:09 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>2, "nome"=>["guilherme rocha ramos"], "autor"=>{"nome"=>["guilherme rocha ramos"], "nome_contador"=>2}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (0.4ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "verificar_palavra"], ["created_at", "2020-05-16 19:44:09.110473"], ["updated_at", "2020-05-16 19:44:09.110473"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (304.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 322ms (Views: 1.0ms | ActiveRecord: 306.3ms | Allocations: 6097)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:44:17 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme rocha ramos"], "autor"=>{"nome"=>["guilherme rocha ramos"], "nome_contador"=>1}}
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.0ms | Allocations: 2907)
+
+
+  
+NoMethodError (undefined method `verifica_palavra' for #<Autor:0x0000558169895450>
+Did you mean?  verificar_palavra):
+  
+app/models/autor.rb:26:in `block (2 levels) in formata_nomes'
+app/models/autor.rb:25:in `block in formata_nomes'
+app/models/autor.rb:9:in `each'
+app/models/autor.rb:9:in `formata_nomes'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:44:50 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme rocha ramos"], "autor"=>{"nome"=>["guilherme rocha ramos"], "nome_contador"=>1}}
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.8ms | Allocations: 5618)
+
+
+  
+NoMethodError (undefined method `verificar_palavra' for #<Autor:0x00007fc93cb86688>):
+  
+app/models/autor.rb:26:in `block (2 levels) in formata_nomes'
+app/models/autor.rb:25:in `block in formata_nomes'
+app/models/autor.rb:9:in `each'
+app/models/autor.rb:9:in `formata_nomes'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:45:22 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme silva ramos"], "autor"=>{"nome"=>["guilherme silva ramos"], "nome_contador"=>1}}
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms | Allocations: 2851)
+
+
+  
+NoMethodError (undefined method `verificar_palavra' for #<Autor:0x00007fc93c8afba8>):
+  
+app/models/autor.rb:26:in `block (2 levels) in formata_nomes'
+app/models/autor.rb:25:in `block in formata_nomes'
+app/models/autor.rb:9:in `each'
+app/models/autor.rb:9:in `formata_nomes'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:47:41 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme silva ramos"], "autor"=>{"nome"=>["guilherme silva ramos"], "nome_contador"=>1}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (0.7ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"RAMOS, Guilherme Silva\"]"], ["created_at", "2020-05-16 19:47:41.317873"], ["updated_at", "2020-05-16 19:47:41.317873"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (251.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 272ms (Views: 3.2ms | ActiveRecord: 252.3ms | Allocations: 6404)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:48:28 -0300
+Error occurred while parsing request parameters.
+Contents:
+
+{ 
+	"nome_contador": 1, 
+	"nome" : ["guilherme rocha ramos", ]
+	
+}
+  
+ActionDispatch::Http::Parameters::ParseError (434: unexpected token at ']
+	
+}'):
+  
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:114:in `rescue in parse_formatted_parameters'
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:110:in `parse_formatted_parameters'
+actionpack (6.0.3) lib/action_dispatch/http/request.rb:389:in `block in POST'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch_header'
+actionpack (6.0.3) lib/action_dispatch/http/request.rb:388:in `POST'
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (6.0.3) lib/action_controller/metal/params_wrapper.rb:278:in `_wrapper_enabled?'
+actionpack (6.0.3) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (6.0.3) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+activerecord (6.0.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Error occurred while parsing request parameters.
+Contents:
+
+{ 
+	"nome_contador": 1, 
+	"nome" : ["guilherme rocha ramos", ]
+	
+}
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:48:39 -0300
+Error occurred while parsing request parameters.
+Contents:
+
+{ 
+	"nome_contador": 1, 
+	"nome" : ["guilherme ramos", ]
+	
+}
+  
+ActionDispatch::Http::Parameters::ParseError (434: unexpected token at ']
+	
+}'):
+  
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:114:in `rescue in parse_formatted_parameters'
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:110:in `parse_formatted_parameters'
+actionpack (6.0.3) lib/action_dispatch/http/request.rb:389:in `block in POST'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch_header'
+actionpack (6.0.3) lib/action_dispatch/http/request.rb:388:in `POST'
+actionpack (6.0.3) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (6.0.3) lib/action_controller/metal/params_wrapper.rb:278:in `_wrapper_enabled?'
+actionpack (6.0.3) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (6.0.3) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+activerecord (6.0.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Error occurred while parsing request parameters.
+Contents:
+
+{ 
+	"nome_contador": 1, 
+	"nome" : ["guilherme ramos", ]
+	
+}
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:48:52 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme rocha ramos"], "autor"=>{"nome"=>["guilherme rocha ramos"], "nome_contador"=>1}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (0.5ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"RAMOS, Guilherme Rocha\"]"], ["created_at", "2020-05-16 19:48:52.885338"], ["updated_at", "2020-05-16 19:48:52.885338"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (256.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 269ms (Views: 0.7ms | ActiveRecord: 257.5ms | Allocations: 3535)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:49:05 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme da silva "], "autor"=>{"nome"=>["guilherme da silva "], "nome_contador"=>1}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (1.4ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"SILVA, Guilherme da\"]"], ["created_at", "2020-05-16 19:49:05.625070"], ["updated_at", "2020-05-16 19:49:05.625070"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (162.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 180ms (Views: 0.4ms | ActiveRecord: 164.0ms | Allocations: 3504)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:49:21 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme da silva filho "], "autor"=>{"nome"=>["guilherme da silva filho "], "nome_contador"=>1}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (1.5ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"DA FILHO, Guilherme Da\"]"], ["created_at", "2020-05-16 19:49:21.959042"], ["updated_at", "2020-05-16 19:49:21.959042"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (194.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 204ms (Views: 0.3ms | ActiveRecord: 195.8ms | Allocations: 3504)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:49:39 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme silva filho "], "autor"=>{"nome"=>["guilherme silva filho "], "nome_contador"=>1}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (1.2ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"SILVA FILHO, Guilherme\"]"], ["created_at", "2020-05-16 19:49:39.592471"], ["updated_at", "2020-05-16 19:49:39.592471"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (192.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 214ms (Views: 1.0ms | ActiveRecord: 193.4ms | Allocations: 3512)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:50:36 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme da silva filho "], "autor"=>{"nome"=>["guilherme da silva filho "], "nome_contador"=>1}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (2.1ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"DA FILHO, Guilherme Da\"]"], ["created_at", "2020-05-16 19:50:36.169128"], ["updated_at", "2020-05-16 19:50:36.169128"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (197.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 217ms (Views: 0.8ms | ActiveRecord: 199.2ms | Allocations: 3500)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:50:51 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme da filho "], "autor"=>{"nome"=>["guilherme da filho "], "nome_contador"=>1}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (0.4ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"DA FILHO, Guilherme\"]"], ["created_at", "2020-05-16 19:50:51.072556"], ["updated_at", "2020-05-16 19:50:51.072556"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (152.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 169ms (Views: 1.5ms | ActiveRecord: 153.1ms | Allocations: 3493)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:51:04 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme da filho "], "autor"=>{"nome"=>["guilherme da filho "], "nome_contador"=>1}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (0.6ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"DA FILHO, Guilherme\"]"], ["created_at", "2020-05-16 19:51:04.275260"], ["updated_at", "2020-05-16 19:51:04.275260"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (201.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 215ms (Views: 0.6ms | ActiveRecord: 202.1ms | Allocations: 3491)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:51:13 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme da silva"], "autor"=>{"nome"=>["guilherme da silva"], "nome_contador"=>1}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (0.3ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"SILVA, Guilherme da\"]"], ["created_at", "2020-05-16 19:51:13.330571"], ["updated_at", "2020-05-16 19:51:13.330571"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (323.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 332ms (Views: 0.6ms | ActiveRecord: 323.7ms | Allocations: 3504)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:51:20 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme filho"], "autor"=>{"nome"=>["guilherme filho"], "nome_contador"=>1}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (0.7ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"FILHO, Guilherme\"]"], ["created_at", "2020-05-16 19:51:20.989997"], ["updated_at", "2020-05-16 19:51:20.989997"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (147.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 160ms (Views: 0.7ms | ActiveRecord: 148.2ms | Allocations: 3494)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:51:34 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme sobrinho"], "autor"=>{"nome"=>["guilherme sobrinho"], "nome_contador"=>1}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (1.4ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"SOBRINHO, Guilherme\"]"], ["created_at", "2020-05-16 19:51:34.662918"], ["updated_at", "2020-05-16 19:51:34.662918"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (240.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 258ms (Views: 0.8ms | ActiveRecord: 242.1ms | Allocations: 3546)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:51:56 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme silva neto"], "autor"=>{"nome"=>["guilherme silva neto"], "nome_contador"=>1}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (1.2ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"SILVA NETO, Guilherme\"]"], ["created_at", "2020-05-16 19:51:56.956939"], ["updated_at", "2020-05-16 19:51:56.956939"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (224.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 240ms (Views: 0.8ms | ActiveRecord: 225.8ms | Allocations: 3491)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:52:23 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme da silva neto"], "autor"=>{"nome"=>["guilherme da silva neto"], "nome_contador"=>1}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (0.9ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"DA NETO, Guilherme Da\"]"], ["created_at", "2020-05-16 19:52:23.790091"], ["updated_at", "2020-05-16 19:52:23.790091"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (315.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 325ms (Views: 1.3ms | ActiveRecord: 316.7ms | Allocations: 3496)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 16:53:30 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme da silva neto"], "autor"=>{"nome"=>["guilherme da silva neto"], "nome_contador"=>1}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (0.3ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"DA NETO, Guilherme Da\"]"], ["created_at", "2020-05-16 19:53:30.264214"], ["updated_at", "2020-05-16 19:53:30.264214"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (303.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 326ms (Views: 1.9ms | ActiveRecord: 305.1ms | Allocations: 6207)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 17:50:44 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme da silva neto"], "autor"=>{"nome"=>["guilherme da silva neto"], "nome_contador"=>1}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (0.4ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"DA NETO, Guilherme Da\"]"], ["created_at", "2020-05-16 20:50:44.803429"], ["updated_at", "2020-05-16 20:50:44.803429"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (205.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 229ms (Views: 1.2ms | ActiveRecord: 206.7ms | Allocations: 6151)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 17:50:50 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>3, "nome"=>["guilherme da silva neto"], "autor"=>{"nome"=>["guilherme da silva neto"], "nome_contador"=>3}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 258)
+
+
+  
+RuntimeError ():
+  
+app/models/autor.rb:38:in `formata_nomes'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-16 17:51:05 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>3, "nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"], "autor"=>{"nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"], "nome_contador"=>3}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (2.2ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"DA NETO, Guilherme Da\", \"DA NETO, Guilherme Da\", \"DA NETO, Guilherme Da\"]"], ["created_at", "2020-05-16 20:51:05.836790"], ["updated_at", "2020-05-16 20:51:05.836790"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (191.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 207ms (Views: 0.9ms | ActiveRecord: 193.5ms | Allocations: 3534)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 11:48:33 -0300
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>3, "nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"], "autor"=>{"nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"], "nome_contador"=>3}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (47.3ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"DA\\n                            NETO,\\n                              Guilherme Da\", \"DA\\n                            NETO,\\n                              Guilherme Da\", \"DA\\n                            NETO,\\n                              Guilherme Da\"]"], ["created_at", "2020-05-17 14:48:34.193809"], ["updated_at", "2020-05-17 14:48:34.193809"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (190.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 300ms (Views: 1.4ms | ActiveRecord: 240.6ms | Allocations: 6578)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 11:48:59 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>3, "nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"], "autor"=>{"nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"], "nome_contador"=>3}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (0.3ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"DA\\n                            NETO,\\n                              Guilherme Da\", \"DA\\n                            NETO,\\n                              Guilherme Da\", \"DA\\n                            NETO,\\n                              Guilherme Da\"]"], ["created_at", "2020-05-17 14:49:00.005843"], ["updated_at", "2020-05-17 14:49:00.005843"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.5ms | Allocations: 2600)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::ReadOnlyException: attempt to write a readonly database):
+  
+app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (147.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (129.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateAutors (20200516152213)
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "autors" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "nome" varchar, "nome_contador" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200516152213"]]
+  [1m[35m (243.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-05-17 14:49:14.503511"], ["updated_at", "2020-05-17 14:49:14.503511"]]
+  [1m[35m (101.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 11:49:16 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>3, "nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"], "autor"=>{"nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"], "nome_contador"=>3}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (0.3ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"DA\\n                            NETO,\\n                              Guilherme Da\", \"DA\\n                            NETO,\\n                              Guilherme Da\", \"DA\\n                            NETO,\\n                              Guilherme Da\"]"], ["created_at", "2020-05-17 14:49:16.772165"], ["updated_at", "2020-05-17 14:49:16.772165"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (168.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 184ms (Views: 2.3ms | ActiveRecord: 169.6ms | Allocations: 6158)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 11:51:27 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>3, "nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"], "autor"=>{"nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"], "nome_contador"=>3}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (0.2ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"DA\\n                            NETO,\\n                              Guilherme Da\", \"DA\\n                            NETO,\\n                              Guilherme Da\", \"DA\\n                            NETO,\\n                              Guilherme Da\"]"], ["created_at", "2020-05-17 14:51:27.606491"], ["updated_at", "2020-05-17 14:51:27.606491"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (154.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 171ms (Views: 2.4ms | ActiveRecord: 155.9ms | Allocations: 6578)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 11:51:50 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>3, "nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"], "autor"=>{"nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"], "nome_contador"=>3}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (1.1ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"DA\\n                            NETO,\\n                              Guilherme Da\", \"DA\\n                            NETO,\\n                              Guilherme Da\", \"DA\\n                            NETO,\\n                              Guilherme Da\"]"], ["created_at", "2020-05-17 14:51:50.419608"], ["updated_at", "2020-05-17 14:51:50.419608"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (183.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 211ms (Views: 1.3ms | ActiveRecord: 184.6ms | Allocations: 3556)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 11:55:14 -0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_quantidade"=>3, "nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"], "autor"=>{"nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"]}}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.5ms | Allocations: 2973)
+
+
+  
+RuntimeError ():
+  
+app/models/autor.rb:42:in `formata_nomes'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 11:55:40 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_quantidade"=>3, "nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"], "autor"=>{"nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"]}}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.5ms | Allocations: 2714)
+
+
+  
+RuntimeError ():
+  
+app/models/autor.rb:42:in `formata_nomes'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 11:56:28 -0300
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_quantidade"=>3, "nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"], "autor"=>{"nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"]}}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.5ms | Allocations: 2973)
+
+
+  
+RuntimeError ():
+  
+app/models/autor.rb:42:in `formata_nomes'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 11:57:19 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_quantidade"=>3, "nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"], "autor"=>{"nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"]}}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.5ms | Allocations: 2973)
+
+
+  
+RuntimeError ():
+  
+app/models/autor.rb:42:in `formata_nomes'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 11:57:28 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>3, "nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"], "autor"=>{"nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"], "nome_contador"=>3}}
+[31mUnpermitted parameter: :nome_contador[0m
+[31mUnpermitted parameter: :nome_contador[0m
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 315)
+
+
+  
+RuntimeError ():
+  
+app/models/autor.rb:42:in `formata_nomes'
+app/controllers/autors_controller.rb:20:in `create'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 11:57:43 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>3, "nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"], "autor"=>{"nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"], "nome_contador"=>3}}
+[31mUnpermitted parameter: :nome_contador[0m
+[31mUnpermitted parameter: :nome_contador[0m
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.5ms | Allocations: 2767)
+
+
+  
+RuntimeError ():
+  
+app/models/autor.rb:42:in `formata_nomes'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 11:58:40 -0300
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_quantidade"=>3, "nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"], "autor"=>{"nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"]}}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 1.9ms | Allocations: 2973)
+
+
+  
+RuntimeError ():
+  
+app/models/autor.rb:42:in `formata_nomes'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 11:59:53 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_quantidade"=>3, "nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"], "autor"=>{"nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"]}}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.5ms | Allocations: 2973)
+
+
+  
+RuntimeError ():
+  
+app/models/autor.rb:42:in `formata_nomes'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 12:00:26 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_quantidade"=>3, "nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"], "autor"=>{"nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"]}}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.8ms | Allocations: 2710)
+
+
+  
+RuntimeError ():
+  
+app/models/autor.rb:42:in `formata_nomes'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 12:00:31 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>3, "nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"], "autor"=>{"nome"=>["guilherme da silva neto", "guilherme da silva neto", "guilherme da silva neto"], "nome_contador"=>3}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (0.8ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"DA\\n                            NETO,\\n                              Guilherme Da\", \"DA\\n                            NETO,\\n                              Guilherme Da\", \"DA\\n                            NETO,\\n                              Guilherme Da\"]"], ["created_at", "2020-05-17 15:00:31.335860"], ["updated_at", "2020-05-17 15:00:31.335860"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (246.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 262ms (Views: 2.0ms | ActiveRecord: 247.7ms | Allocations: 3365)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 12:01:03 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>3, "nome"=>["guilherme rocha ramos", "Carlos augusto", "Maria eduarda"], "autor"=>{"nome"=>["guilherme rocha ramos", "Carlos augusto", "Maria eduarda"], "nome_contador"=>3}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (0.2ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"RAMOS,\\n                              Guilherme Rocha\", \"AUGUSTO,\\n                            Carlos\", \"EDUARDA,\\n                            Maria\"]"], ["created_at", "2020-05-17 15:01:03.363221"], ["updated_at", "2020-05-17 15:01:03.363221"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (182.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 191ms (Views: 0.6ms | ActiveRecord: 182.5ms | Allocations: 3553)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 12:02:16 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutorsController#create as */*
+  Parameters: {"{ \n\t\"nome_contador\": 3, \n\t\"nome\" : "=>{"\"guilherme rocha ramos\", \"Carlos augusto\", \"Maria eduarda\""=>{"\n\t\n}"=>nil}}}
+Completed 400 Bad Request in 34ms (ActiveRecord: 3.2ms | Allocations: 3567)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: autor):
+  
+app/controllers/autors_controller.rb:51:in `autor_params'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 12:02:30 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutorsController#create as */*
+  Parameters: {"{ \n\t\"nome_contador\": 3, \n\t\"nome\" : "=>{"\"guilherme rocha ramos\", \"Carlos augusto\", \"Maria eduarda\""=>{"\n\t\n}"=>nil}}}
+Completed 400 Bad Request in 9ms (ActiveRecord: 0.6ms | Allocations: 3572)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: autor):
+  
+app/controllers/autors_controller.rb:51:in `autor_params'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 12:02:49 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutorsController#create as */*
+  Parameters: {"{ \n\t\"nome_contador\": 3, \n\t\"nome\" : "=>{"\"guilherme rocha ramos\", \"Carlos augusto\", \"Maria eduarda\""=>{"\n\t\n}"=>nil}}}
+Completed 400 Bad Request in 9ms (ActiveRecord: 0.9ms | Allocations: 3569)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: autor):
+  
+app/controllers/autors_controller.rb:51:in `autor_params'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 12:02:55 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"{ \n\t\"nome_contador\": 3, \n\t\"nome\" : "=>{"\"guilherme rocha ramos\", \"Carlos augusto\", \"Maria eduarda\""=>{"\n\t\n}"=>nil}}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 137)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: autor):
+  
+app/controllers/autors_controller.rb:51:in `autor_params'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 12:03:07 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutorsController#create as */*
+  Parameters: {"{ \n\t\"nome_contador\": 3, \n\t\"nome\" : "=>{"\"guilherme rocha ramos\", \"Carlos augusto\", \"Maria eduarda\""=>{"\n\t\n}"=>nil}}}
+Completed 400 Bad Request in 9ms (ActiveRecord: 0.6ms | Allocations: 3587)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: autor):
+  
+app/controllers/autors_controller.rb:51:in `autor_params'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 12:03:11 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutorsController#create as */*
+  Parameters: {"{ \n\t\"nome_contador\": 3, \n\t\"nome\" : "=>{"\"guilherme rocha ramos\", \"Carlos augusto\", \"Maria eduarda\""=>{"\n\t\n}"=>nil}}}
+Completed 400 Bad Request in 6ms (ActiveRecord: 0.5ms | Allocations: 3571)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: autor):
+  
+app/controllers/autors_controller.rb:51:in `autor_params'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 12:03:29 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutorsController#create as */*
+  Parameters: {"{ \n\t\"nome_contador\": 3, \n\t\"nome\" : "=>{"\"guilherme rocha ramos\", \"Carlos augusto\", \"Maria eduarda\""=>{"\n\t\n}"=>nil}}}
+Completed 400 Bad Request in 12ms (ActiveRecord: 0.5ms | Allocations: 3568)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: autor):
+  
+app/controllers/autors_controller.rb:51:in `autor_params'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 12:03:40 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"{ \n\t\"nome_contador\": 2, \n\t\"nome\" : "=>{"\"guilherme rocha ramos\", \"Carlos augusto\", \"Maria eduarda\""=>{"\n\t\n}"=>nil}}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 137)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: autor):
+  
+app/controllers/autors_controller.rb:51:in `autor_params'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 12:03:45 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"{ \n\t\"nome_contador\": 1, \n\t\"nome\" : "=>{"\"guilherme rocha ramos\", \"Carlos augusto\", \"Maria eduarda\""=>{"\n\t\n}"=>nil}}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 137)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: autor):
+  
+app/controllers/autors_controller.rb:51:in `autor_params'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 12:03:53 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"{ \n\t\"nome_contador\": 2, \n\t\"nome\" : "=>{"\"guilherme rocha\", \"Carlos augusto\", \"Maria eduarda\""=>{"\n\t\n}"=>nil}}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 137)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: autor):
+  
+app/controllers/autors_controller.rb:51:in `autor_params'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 12:04:01 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"{ \n\t\"nome_contador\": 3, \n\t\"nome\" : "=>{"\"guilherme rocha\", \"Carlos augusto\", \"Maria eduarda\""=>{"\n\t\n}"=>nil}}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 137)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: autor):
+  
+app/controllers/autors_controller.rb:51:in `autor_params'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 12:04:17 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AutorsController#create as */*
+  Parameters: {"{ \n\t\"nome_contador\": 3, \n\t\"nome\" : "=>{"\"guilherme rocha\", \"Carlos augusto\", \"Maria eduarda\""=>{"\n\t\n}"=>nil}}}
+Completed 400 Bad Request in 5ms (ActiveRecord: 0.4ms | Allocations: 3686)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: autor):
+  
+app/controllers/autors_controller.rb:51:in `autor_params'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 12:04:42 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"{ \n\t\"nome_contador\": 3, \n\t\"nome\" : "=>{"\"guilherme rocha\", \"Carlos augusto\", \"Maria eduarda\""=>{"\n\t\n}"=>nil}}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 144)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: autor):
+  
+app/controllers/autors_controller.rb:51:in `autor_params'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 12:04:57 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"{ \n\t\"nome_contador\": 3, \n\t\"nome\" : "=>{"\"guilherme rocha\", \"Carlos augusto\", \"Maria eduarda\""=>{"\n\t\n}"=>nil}}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 144)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: autor):
+  
+app/controllers/autors_controller.rb:51:in `autor_params'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 12:05:11 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"{ \n\t\"nome_contador\": 3, \n\t\"nome\" : "=>{"\"guilherme rocha ramos\", \"Carlos augusto rocha\", \"Maria eduarda rocha\""=>{"\n\t\n}"=>nil}}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 144)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: autor):
+  
+app/controllers/autors_controller.rb:51:in `autor_params'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 12:05:26 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"{ \n\t\"nome_contador\": 1, \n\t\"nome\" : "=>{"\"guilherme rocha ramos\""=>{"\n\t\n}"=>nil}}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 144)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: autor):
+  
+app/controllers/autors_controller.rb:51:in `autor_params'
+app/controllers/autors_controller.rb:20:in `create'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 12:06:06 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutorsController#create as */*
+  Parameters: {"{ \n\t\"nome_contador\": 1, \n\t\"nome\" : "=>{"\"guilherme rocha ramos\""=>{"\n\t\n}"=>nil}}}
+Completed 400 Bad Request in 6ms (ActiveRecord: 0.5ms | Allocations: 3445)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: autor):
+  
+app/controllers/autors_controller.rb:51:in `autor_params'
+app/controllers/autors_controller.rb:20:in `create'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (209.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (129.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateAutors (20200516152213)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "autors" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "nome" varchar, "nome_contador" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200516152213"]]
+  [1m[35m (201.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-05-17 15:06:17.181304"], ["updated_at", "2020-05-17 15:06:17.181304"]]
+  [1m[35m (100.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 12:06:20 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutorsController#create as */*
+  Parameters: {"{ \n\t\"nome_contador\": 1, \n\t\"nome\" : "=>{"\"guilherme rocha ramos\""=>{"\n\t\n}"=>nil}}}
+Completed 400 Bad Request in 8ms (ActiveRecord: 0.6ms | Allocations: 3410)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: autor):
+  
+app/controllers/autors_controller.rb:51:in `autor_params'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 12:07:11 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AutorsController#create as */*
+  Parameters: {"{ \n\t\"nome_contador\": 1, \n\t\"nome\" : "=>{"\"guilherme rocha ramos\""=>{"\n\t\n}"=>nil}}}
+Completed 400 Bad Request in 10ms (ActiveRecord: 1.2ms | Allocations: 3686)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: autor):
+  
+app/controllers/autors_controller.rb:51:in `autor_params'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 12:08:18 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"{ \n\t\"nome_contador\" : 1, \n\t\"nome\" : "=>{"\"guilherme rocha ramos\""=>{"\n\t\n}"=>nil}}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 144)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: autor):
+  
+app/controllers/autors_controller.rb:51:in `autor_params'
+app/controllers/autors_controller.rb:20:in `create'
+Started GET "/autors" for 127.0.0.1 at 2020-05-17 12:09:38 -0300
+Processing by AutorsController#index as */*
+  [1m[36mAutor Load (0.2ms)[0m  [1m[34mSELECT "autors".* FROM "autors"[0m
+  ↳ app/controllers/autors_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 893)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 12:09:44 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"{ \n\t\"nome_contador\" : 1, \n\t\"nome\" : "=>{"\"guilherme rocha ramos\""=>{"\n\t\n}"=>nil}}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 137)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: autor):
+  
+app/controllers/autors_controller.rb:51:in `autor_params'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 12:09:54 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme rocha ramos"], "autor"=>{"nome"=>["guilherme rocha ramos"], "nome_contador"=>1}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (0.7ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"RAMOS, Guilherme Rocha\"]"], ["created_at", "2020-05-17 15:09:54.518421"], ["updated_at", "2020-05-17 15:09:54.518421"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (189.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 204ms (Views: 1.9ms | ActiveRecord: 190.7ms | Allocations: 3802)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 12:10:30 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>1, "nome"=>["guilherme rocha ramos", "Maria eduarda Rocha Ramos", "Carlos Augusto Rocha Ramos"], "autor"=>{"nome"=>["guilherme rocha ramos", "Maria eduarda Rocha Ramos", "Carlos Augusto Rocha Ramos"], "nome_contador"=>1}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 267)
+
+
+  
+RuntimeError (O número de nomes deve ser igual aos nomes dos números):
+  
+app/models/autor.rb:38:in `formata_nomes'
+app/controllers/autors_controller.rb:20:in `create'
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 12:10:36 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>3, "nome"=>["guilherme rocha ramos", "Maria eduarda Rocha Ramos", "Carlos Augusto Rocha Ramos"], "autor"=>{"nome"=>["guilherme rocha ramos", "Maria eduarda Rocha Ramos", "Carlos Augusto Rocha Ramos"], "nome_contador"=>3}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (0.4ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"RAMOS, Guilherme Rocha\", \"RAMOS, Maria Eduarda Rocha\", \"RAMOS, Carlos Augusto Rocha\"]"], ["created_at", "2020-05-17 15:10:36.364658"], ["updated_at", "2020-05-17 15:10:36.364658"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (190.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 205ms (Views: 0.9ms | ActiveRecord: 191.2ms | Allocations: 3545)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 12:11:26 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>3, "nome"=>["guilherme da rocha ramos", "Maria eduarda Rocha Ramos", "Carlos Augusto Rocha Ramos"], "autor"=>{"nome"=>["guilherme da rocha ramos", "Maria eduarda Rocha Ramos", "Carlos Augusto Rocha Ramos"], "nome_contador"=>3}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (0.6ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"RAMOS, Guilherme da Rocha\", \"RAMOS, Maria Eduarda Rocha\", \"RAMOS, Carlos Augusto Rocha\"]"], ["created_at", "2020-05-17 15:11:26.612770"], ["updated_at", "2020-05-17 15:11:26.612770"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (188.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 200ms (Views: 0.6ms | ActiveRecord: 189.2ms | Allocations: 3625)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 12:11:40 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>3, "nome"=>["guilherme da rocha ramos", "Maria eduarda Rocha da Ramos", "Carlos Augusto Rocha Ramos"], "autor"=>{"nome"=>["guilherme da rocha ramos", "Maria eduarda Rocha da Ramos", "Carlos Augusto Rocha Ramos"], "nome_contador"=>3}}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (0.2ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"RAMOS, Guilherme da Rocha\", \"RAMOS, Maria Eduarda Rocha da\", \"RAMOS, Carlos Augusto Rocha\"]"], ["created_at", "2020-05-17 15:11:40.505345"], ["updated_at", "2020-05-17 15:11:40.505345"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (152.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 163ms (Views: 0.8ms | ActiveRecord: 153.1ms | Allocations: 3642)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 19:56:45 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>3, "nome"=>["guilherme rocha ramos", "Maria eduarda Rocha Ramos", "Carlos Augusto Rocha Ramos"], "autor"=>{"nome"=>["guilherme rocha ramos", "Maria eduarda Rocha Ramos", "Carlos Augusto Rocha Ramos"], "nome_contador"=>3}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (0.7ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"RAMOS, Guilherme Rocha\", \"RAMOS, Maria Eduarda Rocha\", \"RAMOS, Carlos Augusto Rocha\"]"], ["created_at", "2020-05-17 22:56:45.953601"], ["updated_at", "2020-05-17 22:56:45.953601"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (269.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 283ms (Views: 0.8ms | ActiveRecord: 271.2ms | Allocations: 6034)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 19:56:58 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>3, "nome"=>["guilherme rocha", "Maria eduarda Rocha Ramos", "Carlos Augusto Rocha Ramos"], "autor"=>{"nome"=>["guilherme rocha", "Maria eduarda Rocha Ramos", "Carlos Augusto Rocha Ramos"], "nome_contador"=>3}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (0.2ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"ROCHA, Guilherme\", \"RAMOS, Maria Eduarda Rocha\", \"RAMOS, Carlos Augusto Rocha\"]"], ["created_at", "2020-05-17 22:56:58.551890"], ["updated_at", "2020-05-17 22:56:58.551890"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (272.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 277ms (Views: 0.2ms | ActiveRecord: 272.2ms | Allocations: 3612)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 19:57:06 -0300
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>3, "nome"=>["guilherme rocha", "Maria eduarda Rocha Ramos", "Carlos Augusto Rocha silva"], "autor"=>{"nome"=>["guilherme rocha", "Maria eduarda Rocha Ramos", "Carlos Augusto Rocha silva"], "nome_contador"=>3}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (0.3ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"ROCHA, Guilherme\", \"RAMOS, Maria Eduarda Rocha\", \"SILVA, Carlos Augusto Rocha\"]"], ["created_at", "2020-05-17 22:57:06.470118"], ["updated_at", "2020-05-17 22:57:06.470118"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (195.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 231ms (Views: 1.1ms | ActiveRecord: 195.3ms | Allocations: 3607)
+
+
+Started POST "/autors" for 127.0.0.1 at 2020-05-17 20:07:37 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutorsController#create as */*
+  Parameters: {"nome_contador"=>3, "nome"=>["guilherme rocha", "Maria eduarda Rocha Ramos", "Carlos Augusto Rocha silva"], "autor"=>{"nome"=>["guilherme rocha", "Maria eduarda Rocha Ramos", "Carlos Augusto Rocha silva"], "nome_contador"=>3}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[36mAutor Create (0.2ms)[0m  [1m[32mINSERT INTO "autors" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "[\"ROCHA, Guilherme\", \"RAMOS, Maria Eduarda Rocha\", \"SILVA, Carlos Augusto Rocha\"]"], ["created_at", "2020-05-17 23:07:37.873784"], ["updated_at", "2020-05-17 23:07:37.873784"]]
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+  [1m[35m (293.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/autors_controller.rb:22:in `create'
+Completed 201 Created in 309ms (Views: 3.4ms | ActiveRecord: 293.3ms | Allocations: 6046)
+
+
